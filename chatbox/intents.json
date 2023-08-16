@@ -1,0 +1,88 @@
+{
+    "intents": [{
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hey :-)",
+                "Hello, thanks for visiting",
+                "Hi there, what can I do for you?",
+                "Hi there, how can I help?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye"],
+            "responses": [
+                "See you later, thanks for visiting",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+            "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {
+            "tag": "search_universities",
+            "patterns": [
+                "Which are some of the best universities to study abroad?",
+                "Are there public universities abroad?",
+                "Are there private universities abroad?"
+            ],
+            "responses": [
+                "Here are some of the univesities you can study abroad:",
+                "Yes here is a list of universities you can attend abroad:"
+            ]
+        },
+        {
+            "tag": "admission_requirements",
+            "patterns": [
+                "What are some of the admission requirements for universities abroad?",
+                "Are SAT tests a mandatory requirement for admission?",
+                "What are the admission requirements for Alabama A & M University?",
+                "What are the act scores required for admission to Alabama State University?"
+            ],
+            "responses": [
+                "Sure here are the admission requirements for",
+                "The following is a list of admission requirements for"
+            ]
+        },
+        {
+            "tag": "cost",
+            "patterns": [
+                "What is the tuition cost for Alabama State University?",
+                "What is the tuition cost for Alabama A & M University?",
+                "When are the room or housing costs at Auburn University?",
+                "What is the average net price for joining a public university?",
+                "What is the average cost for an academic year at Alabama State University?",
+                "What other expenses can a student incur while studying there?"
+            ],
+            "responses": [
+                "Here are the costs incurred at",
+                "The following are the cost requirements at"
+            ]
+        },
+        {
+            "tag": "aid",
+            "patterns": [
+                "What is the federal loan rate when getting aid at Alabama A & M University",
+                "What is the loan principal amount when getting aid at South University-Montgomery?",
+                "What is the average monthly repayments for the loans?",
+                "How many students depend on aid there?",
+                "How many students do not depend on aid there?"
+            ],
+            "responses": [
+                "Here is the data for the aid specifications at",
+                "The following are the aid requirements at"
+            ]
+        }
+    ]
+}

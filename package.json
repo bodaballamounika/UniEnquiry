@@ -1,51 +1,23 @@
 {
-  "name": "@vitejs/plugin-vue",
-  "version": "4.2.3",
-  "license": "MIT",
-  "author": "Evan You",
-  "files": [
-    "dist"
-  ],
-  "main": "./dist/index.cjs",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.ts",
-  "exports": {
-    ".": {
-      "types": "./dist/index.d.ts",
-      "import": "./dist/index.mjs",
-      "require": "./dist/index.cjs"
-    }
-  },
+  "name": "university_admission_chatbox_project_frontend",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "dev": "unbuild --stub",
-    "build": "unbuild && pnpm run patch-cjs",
-    "patch-cjs": "tsx ../../scripts/patchCJS.ts",
-    "prepublishOnly": "npm run build"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "engines": {
-    "node": "^14.18.0 || >=16.0.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vitejs/vite-plugin-vue.git",
-    "directory": "packages/plugin-vue"
-  },
-  "bugs": {
-    "url": "https://github.com/vitejs/vite-plugin-vue/issues"
-  },
-  "homepage": "https://github.com/vitejs/vite-plugin-vue/tree/main/packages/plugin-vue#readme",
-  "peerDependencies": {
-    "vite": "^4.0.0",
-    "vue": "^3.2.25"
+  "dependencies": {
+    "axios": "^1.4.0",
+    "pinia": "^2.1.3",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.2"
   },
   "devDependencies": {
-    "@jridgewell/gen-mapping": "^0.3.2",
-    "@jridgewell/trace-mapping": "^0.3.17",
-    "debug": "^4.3.4",
-    "rollup": "^3.17.2",
-    "slash": "^5.0.0",
-    "source-map": "^0.6.1",
-    "vite": "^4.3.5",
-    "vue": "^3.3.0-beta.5"
+    "@vitejs/plugin-vue": "^4.2.3",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.26",
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.3.9"
   }
 }
